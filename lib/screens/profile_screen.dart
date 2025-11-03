@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wisata_candi_tegar/models/candi.dart';
 
 class ProfileScreen extends StatefulWidget {
-  const  ProfileScreen ({super.key, required Candi candi});
+  const  ProfileScreen ({super.key});
 
   @override
   State<ProfileScreen> createState() => _ProfileScreenState();

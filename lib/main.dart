@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ProfileScreen(candi: candiList[0]),
+      home: ProfileScreen(),
+      // DetailScreen(candi: candiList[0]),
     );
   }
 }
