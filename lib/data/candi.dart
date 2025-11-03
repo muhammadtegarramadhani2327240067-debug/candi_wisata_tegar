@@ -8,7 +8,7 @@ var candiList = [
     'Candi Borobudur, candi Buddha terbesar di dunia, dibangun oleh penganut Buddha Mahayana pada abad ke-9 di Jawa Tengah, Indonesia. Dengan enam teras dan tiga pelataran melingkar yang dihiasi relief dan arca Buddha, Borobudur adalah tempat suci untuk memuliakan Buddha dan panduan ziarah menuju pencerahan. Meskipun ditinggalkan pada abad ke-10, candi ini ditemukan kembali pada tahun 1814 dan setelah pemugaran besar-besaran, diakui sebagai Situs Warisan Dunia oleh UNESCO.',
     built: 'Abad ke-9',
     type: 'Candi Buddha',
-    imageAsset: 'images/borobudur.jpeg',
+    imageAsset: 'assets/borobudur.jpeg',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/11/cd/4f/71/borobudur-and-the-sky.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-o/11/cd/5d/36/borobudur-airial-view.jpg',
