@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_candi_tegar/data/candi.dart';
+import 'package:wisata_candi_tegar/screens/detail_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,20 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Wisata candi',
+      title: 'Wisata Candi',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DetailScreen(),
+      home: DetailScreen(candi: candiList[0]),
     );
-  }
-}
-
-class DetailScreen extends StatelessWidget {
-  const DetailScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
   }
 }
