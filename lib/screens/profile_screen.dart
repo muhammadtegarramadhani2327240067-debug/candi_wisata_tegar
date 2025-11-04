@@ -27,6 +27,31 @@ class _ProfileScreenState extends State<ProfileScreen> {
               child: Column(
                 children: [
                   // TODO: 2. Buat bagian ProfileHeader yang berisi gambar profile
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: Padding(
+                        padding: const EdgeInsets.only(top: 200 - 500),
+                        child: Stack(
+                          alignment: Alignment.bottomRight,
+                        ),
+                    ),
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.deepPurple, width: 2),
+                          shape: BoxShape.circle,
+                        ),
+                        child: CircleAvatar(
+                          radius: 50,
+                          backgroundImage: AssetImage('image/placeholder_image.png'),
+                        ),
+                      ),
+                      if(isSignedIn)
+                        IconButton(
+                            onPressed: (){},
+                            icon: Icon(Icons.camera_alt, color: Colors.deepPurple[50],),),
+                    ],
+                  )
                   // TODO: 3. Buat bagian  ProfileInfo yang berisi info profile
                   // TODO: 4. Buat ProfileActions yang berisi TextButton sign in/out
                 ],
