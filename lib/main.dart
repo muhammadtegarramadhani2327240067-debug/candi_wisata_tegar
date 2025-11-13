@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:wisata_candi_tegar/data/candi.dart';
 import 'package:wisata_candi_tegar/screens/detail_screen.dart';
 import 'package:wisata_candi_tegar/screens/profile_screen.dart';
+import 'package:wisata_candi_tegar/screens/search_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: ProfileScreen(),
+      home: SearchScreen(),
       // DetailScreen(candi: candiList[0]),
     );
   }
